@@ -1,0 +1,50 @@
+body{
+    background: black;
+    padding: 2em;
+  }
+
+  h1{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:72px;
+    font-family: "Goudy Stout", Courier, monospace;
+    padding:30px;
+    margin: 10px;
+    color: aliceblue;
+
+  }
+
+  i{
+    color: aliceblue;
+  }
+
+  h2{
+    color: aliceblue;
+  }
+
+  h3{
+    color: aliceblue;
+  }
+
+  b{
+    color: aliceblue;
+  }
+  
+  p{
+    color: aliceblue;
+  }
+ 
+  .container{
+    position: absolute;
+    width: 10px;
+    height:20px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  img{
+    margin: 10px;
+    border-radius: 12px;
+  }
