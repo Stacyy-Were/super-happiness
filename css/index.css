@@ -1,3 +1,5 @@
+
+
 body{
     text-align:center;
     background: black;
@@ -6,7 +8,7 @@ body{
   h1{
     text-transform:uppercase;
     font-size:72px;
-    font-family: "Goudy Stout", Courier, monospace;
+    font-family: "Permanent Marker", cursive;
     padding:30px;
     margin: 10px;
     color: aliceblue;
@@ -46,3 +48,29 @@ body{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+  @media only screen and (max-device-width: 480px) {
+    div#wrapper {
+        width: 400px;
+    }
+
+    div#header {
+        background-image: url(media-queries-phone.jpg);
+        height: 93px;
+        position: relative;
+    }
+
+    div#header h1 {
+        font-size: 140%;
+    }
+
+    #content {
+        float: none;
+        width: 100%;
+    }
+
+    #navigation {
+        float:none;
+        width: auto;
+    }
+}
